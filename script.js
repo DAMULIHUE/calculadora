@@ -1,10 +1,5 @@
 function calculo(){
     let input = document.getElementById("input").value;
-    let result = "";
-
-    let inputArray = input.split("");
-
-    inputArray.forEach((val, index) => {
-        
-    })
+    
+    console.log(math.evaluate('12 + 13 * 5'));
 }
