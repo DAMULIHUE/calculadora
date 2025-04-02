@@ -1,0 +1,24 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vw;
+}
+
+.header {
+    text-align: center;
+    font-size: 2vw;
+
+    border: black solid 1px;
+    color:white;
+    background-color: black;
+}
+
+.inputNumbers {
+    border-radius: 2px;
+}
+
+.buttons {
+    border: red solid 2px;
+}
+
