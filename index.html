@@ -13,38 +13,49 @@
         <h3> btw made for Lihuê F. G. Oliveira</h2>
     </header>
     <main>
-        <div id="res" class="res"></div>
-            <input class="inputNumbers" 
-                        id="input"
-                            type="text" 
-                                placeholder="numbers....">
-        
-            <p id="resParagraph"></p>
+                
+        <div class="containerRes">
+            <div class="res">
+                <p id="resParagraph"></p>
+                <input class="inputNumbers" 
+                            id="input"
+                                type="text" 
+                                    placeholder="numbers....">
+            
+            </div>
+        </div>
 
         <div class="tecladoAll">
             <div class="tecladoNumerico">
-            <div class="linha1">
-                <button class="sete">7</button>
-                <button class="oito">8</button>
-                <button class="nove">9</button>
-            </div>
-            <div class="linha2">
-                <button class="seis">6</button>
-                <button class="cinco">5</button>
-                <button class="quatro">4</button>
-            </div>
-            <div class="linha3">
-                <button class="um">1</button>
-                <button class="dois">2</button>
-                <button class="tres">3</button>
-            </div>
-            <div class="linha4">
+                <div class="linha1">
+                    <button onclick="adicionaNumero('7')" class="sete">7</button>
+                    <button onclick="adicionaNumero('8')" class="oito">8</button>
+                    <button onclick="adicionaNumero('9')" class="nove">9</button>
+                </div>
+                <div class="linha2">
+                    <button onclick="adicionaNumero('6')" class="seis">6</button>
+                    <button onclick="adicionaNumero('5')" class="cinco">5</button>
+                    <button onclick="adicionaNumero('4')" class="quatro">4</button>
+                </div>
                 <div class="linha3">
-                    <button class="zero">0</button>
-                    <button class="ponto">,</button>
-                    <button class="enter">enter</button>
+                    <button onclick="adicionaNumero('1')" class="um">1</button>
+                    <button onclick="adicionaNumero('2')" class="dois">2</button>
+                    <button onclick="adicionaNumero('3')" class="tres">3</button>
+                </div>
+                <div class="linha4">
+                    <div class="linha3">
+                        <button onclick="adicionaNumero('0')" class="zero">0</button>
+                        <button onclick="adicionaNumero('.')" class="ponto">,</button>
+                        <button onclick="calculo()" class="enter">ans</button>
+                    </div>
                 </div>
             </div>
+
+            <div class="tecladoOpsBasicos">
+                <button onclick="adicionaOperador('+')" class="mais">+</button>
+                <button onclick="adicionaOperador('-')" class="menos">-</button>
+                <button onclick="adicionaOperador('*')" class="vezes">x</button>
+                <button onclick="adicionaOperador('/')" class="divisao">/</button>
             </div>
         </div>
             

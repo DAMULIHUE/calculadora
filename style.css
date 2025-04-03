@@ -7,9 +7,17 @@
     background-color: black;
 }
 
+.containerRes{
+    max-width:100%;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+}
+
 .inputNumbers {
     border-radius: 2px;
 }
+
 
 .tecladoAll {
     width:100%;
@@ -18,8 +26,19 @@
     align-items: center;
     justify-content: center;
 }
+
+.tecladoNumerico{
+    margin:0.45vw;
+}
+
+.tecladoOpsBasicos{
+    display:flex;
+    flex-direction: column;
+}
+
 .um, .dois, .tres, .quatro, .cinco, .seis,
-.sete, .oito, .nove, .zero, .ponto, .enter{
+.sete, .oito, .nove, .zero, .ponto, .enter,
+.mais, .menos, .vezes, .divisao{
     min-width: 7vw;
     max-width: 18vw;
     font-size: 1.5rem;
