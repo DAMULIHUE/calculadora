@@ -1,9 +1,4 @@
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50vw;
-}
+
 
 .header {
     text-align: center;
@@ -19,6 +14,41 @@ main{
 }
 
 .buttons {
-    border: red solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 100%;
 }
 
+.opsBasicos {
+    display: flex;
+    flex-direction: column;
+    width: 3%;
+    height: 100%;
+}
+
+.numeros {
+    width: 25%;
+    height: 50%;
+}
+
+.linha1, .linha2, .linha3, .linha4{
+    display: flex;
+    flex-direction: row;
+    margin-bottom:0.1vw;
+    width:100%;
+    height: 20%;
+}
+
+.um, .dois, .tres, .quatro, .cinco, .seis, 
+.sete, .oito, .nove, .zero, .ponto, .enter{
+    width: 100%;
+    height: 100%;
+}
+
+#mais, #menos, #vezes, #divisao{
+    margin-bottom: 0.1vw;
+    width: 100%;
+    height: 100%;
+}
