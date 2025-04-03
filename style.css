@@ -1,8 +1,6 @@
-
-
 .header {
     text-align: center;
-    font-size: 2vw;
+    font-size: 1rem;
 
     border: black solid 1px;
     color:white;
@@ -13,19 +11,16 @@
     border-radius: 2px;
 }
 
-.keyboard {
+.tecladoAll {
     width:100%;
-}
 
-
-
-.linha1, .linha2, .linha3{
-    display: flex;
+    display:flex;
+    align-items: center;
     justify-content: center;
-    flex-direction: row;
-    flex-grow: 1;
 }
-.linha4 {
-    display: flex;
-    justify-content: center;
+.um, .dois, .tres, .quatro, .cinco, .seis,
+.sete, .oito, .nove, .zero, .ponto, .enter{
+    min-width: 7vw;
+    max-width: 18vw;
+    font-size: 1.5rem;
 }
